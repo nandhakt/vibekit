@@ -1,0 +1,190 @@
+{
+  "splash": {
+    "loading": "Loading..."
+  },
+  "onboarding": {
+    "skip": "Skip",
+    "next": "Next",
+    "getStarted": "Get Started",
+    "page1": {
+      "title": "Welcome to VibeKit",
+      "description": "Discover amazing features and capabilities that will enhance your daily experience."
+    },
+    "page2": {
+      "title": "Stay Connected",
+      "description": "Connect with friends, share moments, and stay updated with what matters most to you."
+    },
+    "page3": {
+      "title": "Get Started Today",
+      "description": "Ready to begin your journey? Let's explore everything VibeKit has to offer."
+    }
+  },
+  "tabs": {
+    "home": "Home",
+    "settings": "Settings"
+  },
+  "home": {
+    "title": "Welcome to VibeKit",
+    "subtitle": "Your personalized dashboard",
+    "greeting": "Hello! Ready to explore?",
+    "appOpen": "App Opens",
+    "quickActions": "Quick Actions",
+    "quickActionsDescription": "This is where you can add quick actions, recent activity, or any other content for your home screen.",
+    "recentActivity": "Recent Activity",
+    "recentActivityDescription": "No recent activity to show. Start exploring the app to see updates here.",
+    "reviewApp": "Rate VibeKit",
+    "reviewAppDescription": "Help us improve by sharing your feedback",
+    "reviewButton": "Show Review Popup",
+    "reviewSuccess": "Thank you for your feedback!",
+    "reviewError": "Unable to show review at this time",
+    "reviewUnavailable": "In-app review is not available on this platform",
+    "toastNotifications": "Toast Notifications",
+    "toastNotificationsDescription": "Test different types of toast notifications",
+    "showSuccessToast": "Show Success Toast",
+    "showErrorToast": "Show Error Toast",
+    "showInfoToast": "Show Info Toast",
+    "toastMessages": {
+      "success": {
+        "title": "Success!",
+        "message": "Your action was completed successfully"
+      },
+      "error": {
+        "title": "Error!",
+        "message": "Something went wrong. Please try again"
+      },
+      "info": {
+        "title": "Information",
+        "message": "Here's some useful information for you"
+      }
+    },
+    "walkthrough": {
+      "title": "Step-by-Step Walkthrough",
+      "description": "Learn how to use VibeKit with our interactive tutorial that guides you through each feature",
+      "startTutorial": "Start Tutorial",
+      "webNotSupported": "Interactive walkthrough is only available on mobile devices. On web, you can explore the features manually.",
+      "step1": "This is your home screen header. Here you can see the app title and access your profile.",
+      "step2": "Tap this profile button to view and edit your personal information, including your profile picture.",
+      "step3": "This counter shows how many times you've opened the app. It's a simple way to track your engagement.",
+      "step4": "Toast notifications are temporary messages that appear at the top of the screen. Try the different types to see how they work.",
+      "step5": "Use this section to rate and review the app. Your feedback helps us improve the experience for everyone.",
+      "step6": "This walkthrough feature helps new users learn how to navigate and use the app effectively. You can restart it anytime!",
+      "step7": "RevenueCat integration allows you to manage subscriptions and unlock premium features. Try the paywall to see how it works!",
+      "step8": "Share VibeKit with your friends and family using the native sharing capabilities of your device. Spread the word!"
+    },
+    "shareApp": {
+      "title": "Share VibeKit",
+      "description": "Love VibeKit App? Share it with your friends and family using your device's native sharing capabilities. Help us grow our community!",
+      "shareButton": "Share App",
+      "shareSuccess": "Thanks for sharing VibeKit!",
+      "shareError": "Unable to share at this time",
+      "shareUnavailable": "Sharing is not available on this platform"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": {
+      "title": "Profile",
+      "subtitle": "Manage your account"
+    },
+    "language": {
+      "title": "Language",
+      "subtitle": "Choose your preferred language"
+    },
+    "darkMode": {
+      "title": "Dark Mode",
+      "subtitle": "Adjust your theme preference"
+    },
+    "textSize": {
+      "title": "Text Size",
+      "subtitle": "Adjust text size for better readability",
+      "small": "Small",
+      "normal": "Normal",
+      "large": "Large",
+      "extralarge": "Extra Large"
+    },
+    "textSizeDescriptions": {
+      "small": "Compact text for more content",
+      "normal": "Standard text size",
+      "large": "Larger text for better readability",
+      "extralarge": "Maximum text size for accessibility"
+    },
+    "textSizePreview": "The quick brown fox jumps over the lazy dog",
+    "links": {
+      "title": "Help & Support",
+      "faqs": "FAQs",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy"
+    },
+    "themes": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "themeDescriptions": {
+      "light": "Always use light theme",
+      "dark": "Always use dark theme",
+      "system": "Follow system setting"
+    },
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "fr": "Français"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "editProfile": "Edit Profile",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel",
+    "personalInfo": "Personal Information",
+    "displayName": "Display Name",
+    "displayNamePlaceholder": "Enter your display name",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email address",
+    "bio": "Bio",
+    "bioPlaceholder": "Tell us about yourself",
+    "profilePicture": "Profile Picture",
+    "changePhoto": "Change Photo",
+    "removePhoto": "Remove Photo",
+    "selectPhotoSource": "Select Photo Source",
+    "choosePhotoSource": "Choose how you'd like to add your photo",
+    "camera": "Camera",
+    "photoLibrary": "Photo Library",
+    "defaultPhotos": "Default Photos",
+    "customPhoto": "Upload Custom Photo",
+    "accountSettings": "Account Settings",
+    "deleteAccount": "Delete Account",
+    "profileUpdated": "Profile updated successfully",
+    "profileUpdateError": "Failed to update profile",
+    "confirmDeleteAccount": "Are you sure you want to delete your account? This action cannot be undone.",
+    "deleteAccountConfirm": "Delete",
+    "deleteAccountCancel": "Cancel",
+    "memberSince": "Member since",
+    "editingProfile": "Editing Profile",
+    "viewingProfile": "Your Profile",
+    "permissionRequired": "Permission Required",
+    "cameraPermissionMessage": "We need camera permission to take photos for your profile picture.",
+    "photoLibraryPermissionMessage": "We need photo library permission to select photos for your profile picture.",
+    "cameraNotAvailable": "Camera is not available on this platform",
+    "photoError": "Failed to process photo. Please try again."
+  },
+  "revenuecat": {
+    "title": "RevenueCat Integration",
+    "description": "Unlock premium features with our subscription plans. Experience the full potential of VibeKit with exclusive content and advanced functionality.",
+    "showPaywall": "Show Paywall",
+    "manageSubscription": "Manage Subscription",
+    "paywallTitle": "Premium Subscription",
+    "subscribed": "You are subscribed",
+    "notSubscribed": "Not subscribed",
+    "subscribedBadge": "Premium",
+    "purchaseSuccessTitle": "Purchase Successful!",
+    "purchaseSuccessMessage": "Welcome to VibeKit Premium! Enjoy your new features.",
+    "purchaseErrorTitle": "Purchase Failed",
+    "purchaseErrorMessage": "There was an issue processing your purchase. Please try again.",
+    "mockPaywallTitle": "Premium Subscription",
+    "mockPaywallDescription": "This is a mock paywall for demonstration purposes. In a real app with RevenueCat configured, this would show actual subscription options and handle real purchases.",
+    "mockPurchaseTitle": "Mock Purchase",
+    "mockPurchaseMessage": "This is a demonstration. To test real purchases, export this project and configure RevenueCat with your API keys.",
+    "mockPurchaseButton": "Simulate Purchase"
+  }
+}

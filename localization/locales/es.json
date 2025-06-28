@@ -1,0 +1,112 @@
+{
+  "splash": {
+    "loading": "Cargando..."
+  },
+  "onboarding": {
+    "skip": "Omitir",
+    "next": "Siguiente",
+    "getStarted": "Comenzar",
+    "page1": {
+      "title": "Bienvenido a VibeKit",
+      "description": "Descubre características increíbles y capacidades que mejorarán tu experiencia diaria."
+    },
+    "page2": {
+      "title": "Mantente Conectado",
+      "description": "Conéctate con amigos, comparte momentos y mantente actualizado con lo que más te importa."
+    },
+    "page3": {
+      "title": "Comienza Hoy",
+      "description": "¿Listo para comenzar tu viaje? Exploremos todo lo que VibeKit tiene para ofrecer."
+    }
+  },
+  "tabs": {
+    "home": "Inicio",
+    "settings": "Configuración"
+  },
+  "home": {
+    "title": "Bienvenido a Casa",
+    "subtitle": "Tu panel personalizado",
+    "greeting": "¡Hola! ¿Listo para explorar?",
+    "appOpen": "Aperturas de App",
+    "quickActions": "Acciones Rápidas",
+    "quickActionsDescription": "Aquí puedes agregar acciones rápidas, actividad reciente o cualquier otro contenido para tu pantalla de inicio.",
+    "recentActivity": "Actividad Reciente",
+    "recentActivityDescription": "No hay actividad reciente para mostrar. Comienza a explorar la app para ver actualizaciones aquí.",
+    "reviewApp": "Califica VibeKit",
+    "reviewAppDescription": "Ayúdanos a mejorar compartiendo tus comentarios",
+    "reviewButton": "Mostrar Popup de Reseña",
+    "reviewSuccess": "¡Gracias por tus comentarios!",
+    "reviewError": "No se puede mostrar la reseña en este momento",
+    "reviewUnavailable": "La reseña en la app no está disponible en esta plataforma",
+    "toastNotifications": "Notificaciones Toast",
+    "toastNotificationsDescription": "Prueba diferentes tipos de notificaciones toast",
+    "showSuccessToast": "Mostrar Toast de Éxito",
+    "showErrorToast": "Mostrar Toast de Error",
+    "showInfoToast": "Mostrar Toast de Información",
+    "toastMessages": {
+      "success": {
+        "title": "¡Éxito!",
+        "message": "Tu acción se completó exitosamente"
+      },
+      "error": {
+        "title": "¡Error!",
+        "message": "Algo salió mal. Por favor intenta de nuevo"
+      },
+      "info": {
+        "title": "Información",
+        "message": "Aquí tienes información útil para ti"
+      }
+    }
+  },
+  "settings": {
+    "title": "Configuración",
+    "profile": {
+      "title": "Perfil",
+      "subtitle": "Gestiona tu cuenta"
+    },
+    "language": {
+      "title": "Idioma",
+      "subtitle": "Elige tu idioma preferido"
+    },
+    "darkMode": {
+      "title": "Modo Oscuro",
+      "subtitle": "Ajusta tu preferencia de tema"
+    },
+    "textSize": {
+      "title": "Tamaño de Texto",
+      "subtitle": "Ajusta el tamaño del texto para mejor legibilidad",
+      "small": "Pequeño",
+      "normal": "Normal",
+      "large": "Grande",
+      "extralarge": "Extra Grande"
+    },
+    "textSizeDescriptions": {
+      "small": "Texto compacto para más contenido",
+      "normal": "Tamaño de texto estándar",
+      "large": "Texto más grande para mejor legibilidad",
+      "extralarge": "Tamaño máximo de texto para accesibilidad"
+    },
+    "textSizePreview": "El zorro marrón rápido salta sobre el perro perezoso",
+    "links": {
+      "title": "Ayuda y Soporte",
+      "faqs": "Preguntas Frecuentes",
+      "terms": "Términos de Servicio",
+      "privacy": "Política de Privacidad"
+    },
+    "themes": {
+      "light": "Claro",
+      "dark": "Oscuro",
+      "system": "Sistema"
+    },
+    "themeDescriptions": {
+      "light": "Usar siempre tema claro",
+      "dark": "Usar siempre tema oscuro",
+      "system": "Seguir configuración del sistema"
+    },
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "fr": "Français"
+    }
+  }
+}

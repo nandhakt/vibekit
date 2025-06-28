@@ -1,0 +1,112 @@
+{
+  "splash": {
+    "loading": "Chargement..."
+  },
+  "onboarding": {
+    "skip": "Passer",
+    "next": "Suivant",
+    "getStarted": "Commencer",
+    "page1": {
+      "title": "Bienvenue dans VibeKit",
+      "description": "Découvrez des fonctionnalités étonnantes et des capacités qui amélioreront votre expérience quotidienne."
+    },
+    "page2": {
+      "title": "Restez Connecté",
+      "description": "Connectez-vous avec des amis, partagez des moments et restez à jour avec ce qui vous importe le plus."
+    },
+    "page3": {
+      "title": "Commencez Aujourd'hui",
+      "description": "Prêt à commencer votre voyage ? Explorons tout ce que VibeKit a à offrir."
+    }
+  },
+  "tabs": {
+    "home": "Accueil",
+    "settings": "Paramètres"
+  },
+  "home": {
+    "title": "Bienvenue à la Maison",
+    "subtitle": "Votre tableau de bord personnalisé",
+    "greeting": "Bonjour ! Prêt à explorer ?",
+    "appOpen": "Ouvertures d'App",
+    "quickActions": "Actions Rapides",
+    "quickActionsDescription": "C'est ici que vous pouvez ajouter des actions rapides, une activité récente ou tout autre contenu pour votre écran d'accueil.",
+    "recentActivity": "Activité Récente",
+    "recentActivityDescription": "Aucune activité récente à afficher. Commencez à explorer l'app pour voir les mises à jour ici.",
+    "reviewApp": "Évaluer VibeKit",
+    "reviewAppDescription": "Aidez-nous à nous améliorer en partageant vos commentaires",
+    "reviewButton": "Afficher Popup d'Évaluation",
+    "reviewSuccess": "Merci pour vos commentaires !",
+    "reviewError": "Impossible d'afficher l'évaluation en ce moment",
+    "reviewUnavailable": "L'évaluation dans l'app n'est pas disponible sur cette plateforme",
+    "toastNotifications": "Notifications Toast",
+    "toastNotificationsDescription": "Testez différents types de notifications toast",
+    "showSuccessToast": "Afficher Toast de Succès",
+    "showErrorToast": "Afficher Toast d'Erreur",
+    "showInfoToast": "Afficher Toast d'Information",
+    "toastMessages": {
+      "success": {
+        "title": "Succès !",
+        "message": "Votre action a été complétée avec succès"
+      },
+      "error": {
+        "title": "Erreur !",
+        "message": "Quelque chose s'est mal passé. Veuillez réessayer"
+      },
+      "info": {
+        "title": "Information",
+        "message": "Voici des informations utiles pour vous"
+      }
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "profile": {
+      "title": "Profil",
+      "subtitle": "Gérez votre compte"
+    },
+    "language": {
+      "title": "Langue",
+      "subtitle": "Choisissez votre langue préférée"
+    },
+    "darkMode": {
+      "title": "Mode Sombre",
+      "subtitle": "Ajustez votre préférence de thème"
+    },
+    "textSize": {
+      "title": "Taille du Texte",
+      "subtitle": "Ajustez la taille du texte pour une meilleure lisibilité",
+      "small": "Petit",
+      "normal": "Normal",
+      "large": "Grand",
+      "extralarge": "Extra Grand"
+    },
+    "textSizeDescriptions": {
+      "small": "Texte compact pour plus de contenu",
+      "normal": "Taille de texte standard",
+      "large": "Texte plus grand pour une meilleure lisibilité",
+      "extralarge": "Taille maximale de texte pour l'accessibilité"
+    },
+    "textSizePreview": "Le renard brun rapide saute par-dessus le chien paresseux",
+    "links": {
+      "title": "Aide et Support",
+      "faqs": "FAQ",
+      "terms": "Conditions de Service",
+      "privacy": "Politique de Confidentialité"
+    },
+    "themes": {
+      "light": "Clair",
+      "dark": "Sombre",
+      "system": "Système"
+    },
+    "themeDescriptions": {
+      "light": "Toujours utiliser le thème clair",
+      "dark": "Toujours utiliser le thème sombre",
+      "system": "Suivre les paramètres du système"
+    },
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "fr": "Français"
+    }
+  }
+}

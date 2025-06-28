@@ -1,0 +1,9 @@
+Localization and Text Scaling Rules:
+1. Whenever you generate code for this project, never hard-code user-facing text directly in the UI code.
+2. Always use the app’s existing localization (i18n) system — all user-facing text must be referenced using the localization framework so the UI always displays the user’s selected language.
+3. If you add new text, create a meaningful key for it (for example, "welcome_message": "Welcome to the app!") and add it to localization/locales/en.json.
+4. Only provide the English entry — I will add other languages later. Do not create or modify translation files for any other languages — only update en.json. I will handle other languages myself.
+5. In the code you generate, always use the translation key, never raw text.
+6. If the request includes hard-coded text, rewrite it to use the localization system and provide the English translation entry.
+7. Ensure that text respects the app’s text scaling and accessibility settings — use scalable units and follow platform best practices.
+8. For large and extra-large text sizes, ensure proper line spacing, wrapping, and responsive layouts so the UI remains accessible and visually balanced at all text sizes.
