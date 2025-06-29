@@ -57,20 +57,7 @@
         "message": "Here's some useful information for you"
       }
     },
-    "walkthrough": {
-      "title": "Step-by-Step Walkthrough",
-      "description": "Learn how to use VibeKit with our interactive tutorial that guides you through each feature",
-      "startTutorial": "Start Tutorial",
-      "webNotSupported": "Interactive walkthrough is only available on mobile devices. On web, you can explore the features manually.",
-      "step1": "This is your home screen header. Here you can see the app title and access your profile.",
-      "step2": "Tap this profile button to view and edit your personal information, including your profile picture.",
-      "step3": "This counter shows how many times you've opened the app. It's a simple way to track your engagement.",
-      "step4": "Toast notifications are temporary messages that appear at the top of the screen. Try the different types to see how they work.",
-      "step5": "Use this section to rate and review the app. Your feedback helps us improve the experience for everyone.",
-      "step6": "This walkthrough feature helps new users learn how to navigate and use the app effectively. You can restart it anytime!",
-      "step7": "RevenueCat integration allows you to manage subscriptions and unlock premium features. Try the paywall to see how it works!",
-      "step8": "Share VibeKit with your friends and family using the native sharing capabilities of your device. Spread the word!"
-    },
+
     "shareApp": {
       "title": "Share VibeKit",
       "description": "Love VibeKit App? Share it with your friends and family using your device's native sharing capabilities. Help us grow our community!",

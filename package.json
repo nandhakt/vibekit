@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "EXPO_NO_TELEMETRY=1 expo start",
     "build:web": "expo export --platform web",
-    "lint": "expo lint"
+    "ios": "expo run:ios",
+    "lint": "expo lint",
+    "android": "expo run:android"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
@@ -31,12 +33,12 @@
     "expo-system-ui": "~5.0.5",
     "expo-web-browser": "~14.1.5",
     "i18next": "^23.7.16",
+    "intl-pluralrules": "^2.0.1",
     "lucide-react-native": "^0.475.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-i18next": "^14.0.0",
     "react-native": "0.79.1",
-    "react-native-copilot": "3.3.3",
     "react-native-gesture-handler": "~2.24.0",
     "react-native-in-app-review": "^4.3.3",
     "react-native-purchases": "^8.11.4",
@@ -44,13 +46,12 @@
     "react-native-reanimated": "~3.17.4",
     "react-native-safe-area-context": "5.3.0",
     "react-native-screens": "~4.10.0",
-    "react-native-share": "^10.2.1",
+    "react-native-share": "^12.1.0",
     "react-native-svg": "15.11.2",
     "react-native-toast-message": "^2.2.1",
     "react-native-url-polyfill": "^2.0.0",
     "react-native-web": "^0.20.0",
-    "react-native-webview": "13.13.5",
-    "intl-pluralrules": "^2.0.1"
+    "react-native-webview": "13.13.5"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
