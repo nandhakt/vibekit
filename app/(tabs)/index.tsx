@@ -18,9 +18,9 @@ import {
   User 
 } from 'lucide-react-native';
 import Toast from 'react-native-toast-message';
-import Share from 'react-native-share';
 import InAppReview from 'react-native-in-app-review';
 import PaywallModal from '@/components/PaywallModal';
+import Constants from 'expo-constants';
 
 function HomeScreen() {
   const { t } = useTranslation();
@@ -138,17 +138,74 @@ function HomeScreen() {
       return;
     }
 
-    if (!Share) {
-      Alert.alert(
-        t('home.shareApp.title'),
-        t('home.shareApp.shareUnavailable'),
-        [{ text: 'OK' }]
-      );
+    // Check if we're running in Expo Go (where react-native-share won't work)
+    const isExpoGo = Constants.appOwnership === 'expo';
+    
+    if (isExpoGo) {
+             // Fallback for Expo Go - use Expo Sharing
+       try {
+         setIsShareLoading(true);
+         const SharingModule = await import('expo-sharing');
+         
+         if (await SharingModule.isAvailableAsync()) {
+           // For Expo Go, we'll show a simple alert with the URL to copy
+           Alert.alert(
+             t('home.shareApp.title'),
+             'Hey, Check out VibeKit!\n\nhttps://vibekit.app',
+             [
+               { text: 'Cancel', style: 'cancel' },
+               { 
+                 text: 'Copy Link', 
+                 onPress: async () => {
+                   try {
+                     const ClipboardModule = await import('expo-clipboard');
+                     await ClipboardModule.setStringAsync('Hey, Check out VibeKit. https://vibekit.app');
+                     Toast.show({
+                       type: 'success',
+                       text1: 'Link copied to clipboard!',
+                       position: 'top',
+                       visibilityTime: 3000,
+                       autoHide: true,
+                       topOffset: 60,
+                     });
+                   } catch (clipboardError) {
+                     console.error('Clipboard error:', clipboardError);
+                   }
+                 }
+               }
+             ]
+           );
+         } else {
+           Alert.alert(
+             t('home.shareApp.title'),
+             t('home.shareApp.shareUnavailable'),
+             [{ text: 'OK' }]
+           );
+         }
+      } catch (error) {
+        console.error('Expo sharing error:', error);
+        Alert.alert(
+          t('home.shareApp.title'),
+          t('home.shareApp.shareUnavailable'),
+          [{ text: 'OK' }]
+        );
+      } finally {
+        setIsShareLoading(false);
+      }
       return;
     }
 
+    // For development/production builds, use react-native-share
     try {
       setIsShareLoading(true);
+      
+      // Dynamic import to avoid loading in Expo Go
+      const ShareModule = await import('react-native-share');
+      const Share = ShareModule.default;
+      
+      if (!Share || !Share.open) {
+        throw new Error('react-native-share not available');
+      }
       
       const shareOptions = {
         title: 'Check this out!',
@@ -169,16 +226,31 @@ function HomeScreen() {
         });
       }
     } catch (error) {
+      console.error('Share error:', error);
       // User cancelled the share or an error occurred
       if (error instanceof Error && error.message !== 'User did not share') {
-        Toast.show({
-          type: 'error',
-          text1: t('home.shareApp.shareError'),
-          position: 'top',
-          visibilityTime: 3000,
-          autoHide: true,
-          topOffset: 60,
-        });
+                 // Fallback to clipboard if native sharing fails
+         try {
+           const ClipboardModule = await import('expo-clipboard');
+           await ClipboardModule.setStringAsync('Hey, Check out VibeKit. https://vibekit.app');
+          Toast.show({
+            type: 'success',
+            text1: 'Link copied to clipboard!',
+            position: 'top',
+            visibilityTime: 3000,
+            autoHide: true,
+            topOffset: 60,
+          });
+        } catch (clipboardError) {
+          Toast.show({
+            type: 'error',
+            text1: t('home.shareApp.shareError'),
+            position: 'top',
+            visibilityTime: 3000,
+            autoHide: true,
+            topOffset: 60,
+          });
+        }
       }
     } finally {
       setIsShareLoading(false);
